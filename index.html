@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/753a59d3de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form">
+        <div class="top">
+            <h1>Payment form example</h1>
+        </div>
+        <div class="center">
+            <div class="center-top">
+                <div class="missingtext">
+                    <p>Some fields are missing</p>
+                </div>
+                <div class="inputs-top">
+                    <div>
+                        <div>
+                            <label for="input">Card #</label>
+                        </div>
+                        <div>
+                            <input type="text" id="card" placeholder="XXXXXXXXXXXXXX">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="input">CVC#</label>
+                        </div>
+                        <div>
+                            <input type="text" id="CVC" placeholder="0000">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="input">Amount</label>
+                        </div>
+                        <div>
+                            <label for="input">$</label>
+                            <input type="number" id="amount" placeholder="Amount">
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="ctr-ctr">
+                <div class="ctr-ctr-r">
+                    <div>
+                        <div>
+                            <label for="input">Last Name</label>
+                        </div>
+                        <div>
+                            <input type="text" id="firstname">
+                        </div>
+                    </div>
+                    <div class="postalcode">
+                        <div class="postalcodelabel">
+                            <label for="input">Postal Code</label>
+                        </div>
+                        <div>
+                            <input type="number" id="postalcode">
+                        </div>
+                    </div>
+                    <div class="state">
+                        <div class="statelabel">
+                            <label for="select">State</label>
+                        </div>
+                        <select name="states" id="">
+                            <option value="pick ">Pick a state</option>
+                            <option value="state1">Oklahoma</option>
+                            <option value="state2">Florida</option>
+                            <option value="state3">Texas</option>
+                            <option value="state4">Arizona</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="ctr-ctr-l">
+                    <div>
+                        <div>
+                            <label for="input">First Name</label>
+                        </div>
+                        <div>
+                            <input type="text" id="lastname">
+                        </div>
+                    </div>
+                    <div class="city">
+                        <div class="citylabel">
+                            <label for="input">City</label>
+                        </div>
+                        <div>
+                            <input type="text" id="city">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center-bottom">
+                <div class="center-bottom-r">
+                    <div class="textarealabel">
+                        <label for="textarea">Message:</label>
+                    </div>
+                    <div>
+                        <textarea name="message" id="textarea" cols="112" rows="8"></textarea>
+                    </div>
+                    <p>Add any notes here</p>
+                </div>
+                <div class="center-bottom-l">
+                    <div class="radiolabel">
+                        <label for="radiobox">We accept:</label>
+                    </div>
+                    <div class="radiobox">
+                        <div>
+                            <input type="radio" name="creditcard" value="paypal">
+                            <label for="paypal"><i class="fab fa-cc-visa"></i></label>
+
+                            <input type="radio" name="creditcard" value="paypal">
+                            <label for="paypal"><i class="fab fa-cc-mastercard"></i></label>
+
+                            <input type="radio" name="creditcard" value="paypal">
+                            <label for="paypal"><i class="fab fa-cc-stripe"></i></label>
+
+                            <input type="radio" name="creditcard" value="paypal">
+                            <label for="paypal"><i class="fab fa-cc-paypal"></i></label>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="buttons">
+                <input type="submit" name="Cancel" id="cancel" value="Cancel">
+                <input type="submit" name="Send" id="send" value="Send">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
